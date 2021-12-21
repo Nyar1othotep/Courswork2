@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <link rel="stylesheet" type="text/css" href="css/normalize.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+    <title>AR - Lens</title>
+</head>
+
+<body>
+
+    <div class="wrapper">
+
+        <header class="header">
+            <div class="header__container _container">
+                <div class="heade__body">
+                    <div class="header__burger">
+                        <span></span>
+                    </div>
+                    <a href="#" class="logo">
+                        <img class="logo__img" src="img/logo.png" alt="AR - Lens, вернутся на главную">
+                    </a>
+                    <nav class="header__menu menu">
+                        <ul class="menu__list">
+                            <li class="menu__item">
+                                <a data-goto=".page__opportunities--1" href="#" class="menu__link">Возможности</a>
+                            </li>
+                            <li class="menu__item">
+                                <a data-goto=".page__about--1" href="#" class="menu__link">О линзе</a>
+                            </li>
+                            <li class="menu__item">
+                                <a data-goto=".page__start--1" href="#" class="menu__link">Старт продаж</a>
+                            </li>
+                            <li class="menu__item">
+                                <a data-goto=".page__team--1" href="#" class="menu__link">Наша команда</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </header>
+
+        <main class="page">
+
+            <div class="page__main-block main-block" tabindex="0" aria-label="main-block__title" aria-labelledby="main-block__subtitle">
+                <div class="main-block__container _container">
+                    <video class="main-block__video" poster="img/video.png" autoplay muted playsinline loop preload="auto">
+                        <source src="video/main-block__video.mp4" type="video/mp4" />
+                    </video>
+                    <div class="main-block__body">
+                        <div class="main-block__item">
+                            <labbel class="visually-hidden">Заголовок сайта</labbel>
+                            <div class="main-block__title" id="main-block__title">AR - Lens</div>
+                            <div class="main-block__subtitle" id="main-block__subtitle">Взгляни на мир по - новому</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <section class="page__presentation">
+                <div class="presentation__container _container">
+                    <div class="presentation__body">
+                        <h1 class="presentation__title title">
+                            Представляем единственную в мире контактную линзу, которая улучшает ваше зрение.
+                        </h1>
+                        <div class="presentation__text text">
+                            <p>
+                                Разработанная опытными специалистами, технология дополненной реальности дает вам нужные знания - тогда, когда это необходимо.
+                            </p>
+                        </div>
+                        <div class="presentation__buttons">
+                            <button data-goto=".page__about--1" class="button presentation__button presentation__button--border" href="#page__about" aria-controls="page__about">
+										Подробнее <labbel class="visually-hidden">о линзе</labbel>
+                                <svg class="arrow-down" width="38" height="38" viewBox="0 0 38 38" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M19 9.5C19.3149 9.5 19.617 9.62511 19.8397 9.84781C20.0624 10.0705 20.1875 10.3726 20.1875 10.6875V24.4459L25.2842 19.3468C25.3946 19.2363 25.5257 19.1488 25.67 19.089C25.8142 19.0293 25.9688 18.9985 26.125 18.9985C26.2811 18.9985 26.4357 19.0293 26.58 19.089C26.7242 19.1488 26.8553 19.2363 26.9657 19.3468C27.0761 19.4572 27.1637 19.5882 27.2235 19.7325C27.2832 19.8767 27.314 20.0314 27.314 20.1875C27.314 20.3436 27.2832 20.4983 27.2235 20.6425C27.1637 20.7868 27.0761 20.9178 26.9657 21.0282L19.8407 28.1532C19.7304 28.2638 19.5994 28.3516 19.4551 28.4114C19.3108 28.4713 19.1562 28.5021 19 28.5021C18.8438 28.5021 18.6891 28.4713 18.5448 28.4114C18.4006 28.3516 18.2695 28.2638 18.1592 28.1532L11.0342 21.0282C10.9238 20.9178 10.8362 20.7868 10.7765 20.6425C10.7167 20.4983 10.686 20.3436 10.686 20.1875C10.686 20.0314 10.7167 19.8767 10.7765 19.7325C10.8362 19.5882 10.9238 19.4572 11.0342 19.3468C11.2572 19.1238 11.5596 18.9985 11.875 18.9985C12.0311 18.9985 12.1857 19.0293 12.33 19.089C12.4742 19.1488 12.6053 19.2363 12.7157 19.3468L17.8125 24.4459V10.6875C17.8125 10.3726 17.9376 10.0705 18.1603 9.84781C18.383 9.62511 18.685 9.5 19 9.5Z" fill="black"/>
+                                </svg>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="page__opportunities page__opportunities--1">
+                <div class="opportunities__container _container">
+                    <div class="opportunities__body">
+                        <h1 class="opportunities__title title">
+                            Возможности
+                        </h1>
+                        <div class="opportunities__row">
+                            <div class="opportunities__column">
+                                <div class="opportunities__item item-opportunities">
+                                    <div class="item-opportunities__img _ibg">
+                                        <img src="img/opportunities__img-1.jpg" alt="Ищите нужные места, не отвлекаясь от дороги">
+                                    </div>
+                                    <div class="opportunities__text text" aria-hidden="true">
+                                        Ищите нужные места, не отвлекаясь от дороги
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="opportunities__column">
+                                <div class="opportunities__item item-opportunities">
+                                    <div class="item-opportunities__img _ibg">
+                                        <img src="img/opportunities__img-2.jpg" alt="Занимайтесь спортом вместе с лизной">
+                                    </div>
+                                    <div class="opportunities__text text" aria-hidden="true">
+                                        Занимайтесь спортом вместе с лизной
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="opportunities__column">
+                                <div class="opportunities__item item-opportunities">
+                                    <div class="item-opportunities__img _ibg">
+                                        <img src="img/opportunities__img-3.jpg" alt="Узнайте, что за созвездие у вас над головой">
+                                    </div>
+                                    <div class="opportunities__text text" aria-hidden="true">
+                                        Узнайте, что за созвездие у вас над головой
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="opportunities__column">
+                                <div class="opportunities__item item-opportunities">
+                                    <div class="item-opportunities__img _ibg">
+                                        <img src="img/opportunities__img-4.jpg" alt="Сканируйте окружающую местность">
+                                    </div>
+                                    <div class="opportunities__text text" aria-hidden="true">
+                                        Сканируйте окружающую местность
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="page__about page__about--1" id="page__about">
+                <div class="about__container _container">
+                    <div class="about__body">
+                        <h1 class="about__title title">
+                            О линзе
+                        </h1>
+                        <div class="about__row">
+                            <div class="about__column">
+                                <div class="about__item item-about">
+                                    <div class="item-about__top">
+                                        <h2 class="item-about__subtitle subtitle">
+                                            Технология
+                                        </h2>
+                                        <div class="item-about__text text">
+                                            Разработанная опытными специалистами, технология дополненной реальности дает вам нужные знания - тогда, когда это необходимо. Используйте линзу весь день без усталости глаза.
+                                        </div>
+                                    </div>
+                                    <div class="item-about__bottom">
+                                        <h2 class="item-about__subtitle subtitle">
+                                            Узнавайте не отвлекаясь
+                                        </h2>
+                                        <div class="item-about__text text">
+                                            В важные моменты нам всем нужна важная информация, будь то следующий поворот на велосипедных дорожках, адрес следующей встречи или последние прогнозы продаж. Линза дополненной реальности поможет вам вспомнить, что важнее всего, чтобы вы могли сосредоточиться
+                                            на своих приоритетах, не утыкаясь лицом в экран и не отвлекаясь на мобильное устройство.
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="about__column">
+                                <div class="about__item item-about">
+                                    <div class="item-about__img img-item _ibg">
+                                        <img src="img/about__img.jpg" alt="Девушка через линзу смотрит на элементы дополненной реальности">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="page__start page__start--1" tabindex="0" aria-label="start__title" aria-labelledby="start__timer">
+                <div class="start__image">
+                    <div class="start__container _container">
+                        <div class="start__body">
+                            <h1 class="start__title" id="start__title">До старта продаж</h1>
+                            <div class="start__timer" id="start__timer">
+                                <div class="start__item">
+                                    <div class="start__numbers" id="start__days"></div>
+                                    <span>ДНЕЙ</span>
+                                </div>
+                                <div class="start__item">
+                                    <div class="start__numbers" id="start__hours"></div>
+                                    <span>ЧАСОВ</span>
+                                </div>
+                                <div class="start__item">
+                                    <div class="start__numbers" id="start__minutes"></div>
+                                    <span>МИНУТ</span>
+                                </div>
+                                <div class="start__item">
+                                    <div class="start__numbers" id="start__seconds"></div>
+                                    <span>СЕКУНД</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="page__team page__team--1">
+                <div class="page__container _container">
+                    <h1 class="team__title title">Наша команда</h1>
+                    <div class="swiper mySwiper" aria-hidden="true">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <div class="swiper__img _ibg">
+                                    <img src="img/team__img-1.jpg" alt="Дрю Перкинс">
+                                </div>
+                                <h2 class="swiper__subtitle subtitle">Дрю Перкинс</h2>
+                                <div class="text">Исполнительный директор</div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="swiper__img _ibg">
+                                    <img src="img/team__img-2.jpg" alt="Эшли Туан">
+                                </div>
+                                <h2 class="swiper__subtitle subtitle">Эшли Туан</h2>
+                                <div class="text">Медицинские устройства</div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="swiper__img _ibg">
+                                    <img src="img/team__img-3.jpg" alt="Майк Вимер">
+                                </div>
+                                <h2 class="swiper__subtitle subtitle">Майк Вимер</h2>
+                                <div class="text">Главный технический директор</div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="swiper__img _ibg">
+                                    <img src="img/team__img-4.jpg" alt="Майкл Диринг">
+                                </div>
+                                <h2 class="swiper__subtitle subtitle">Майкл Диринг</h2>
+                                <div class="text">Главный научный сотрудник</div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="swiper__img _ibg">
+                                    <img src="img/team__img-5.jpg" alt="Эми Стэнтон">
+                                </div>
+                                <h2 class="swiper__subtitle subtitle">Эми Стэнтон</h2>
+                                <div class="text">Деловые Операции</div>
+                            </div>
+                        </div>
+                        <div class="swiper-button-prev"></div>
+                        <div class="swiper-button-next"></div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="page__socials">
+                <div class="socials__content">
+                    <div class="socials__container _container">
+                        <div class="socials__body">
+                            <h2 class="socials__subtitle subtitle" id="socials__subtitle">Поделиться страницей</h2>
+                            <ul class="socials__list" aria-labelledby="socials__subtitle">
+                                <li class="socials__item item-socials">
+                                    <a class="item-socials__link" href="#" aria-label="Твиттер">
+                                        <svg class="item-socials__icon" width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                      d="M33.0463 8.66762C31.9387 9.15952 30.7488 9.49054 29.5 9.63985C30.7755 8.87596 31.7535 7.66647 32.2141 6.22434C31.022 6.93151 29.7002 7.4454 28.2928 7.72318C27.1667 6.52295 25.5625 5.77295 23.787 5.77295C20.3773 5.77295 17.6134 8.538 17.6134 11.9466C17.6134 12.4304 17.669 12.9026 17.7731 13.3528C12.6424 13.0959 8.09375 10.6375 5.04745 6.90142C4.51736 7.81346 4.21296 8.87364 4.21296 10.0067C4.21296 12.1479 5.30208 14.038 6.95833 15.1445C5.94676 15.1121 4.99421 14.8343 4.16204 14.3725C4.16204 14.3991 4.16204 14.4234 4.16204 14.45C4.16204 17.4419 6.28935 19.9373 9.11458 20.5033C8.59722 20.6445 8.05092 20.7197 7.48727 20.7197C7.09028 20.7197 6.70255 20.6804 6.32639 20.6098C7.11227 23.0623 9.39236 24.8482 12.0938 24.8979C9.98148 26.5542 7.31944 27.5415 4.42593 27.5415C3.92824 27.5415 3.43634 27.5125 2.95255 27.4547C5.68518 29.2058 8.9294 30.2278 12.4167 30.2278C23.7731 30.2278 29.9815 20.8204 29.9815 12.6618C29.9815 12.3945 29.9757 12.1283 29.9641 11.8632C31.1713 10.9917 32.2188 9.90489 33.0463 8.66762Z"
+                                      fill="#64CFED" />
+                                  </svg>
+                                    </a>
+                                </li>
+                                <li class="socials__item">
+                                    <a class="item-socials__link" href="#" aria-label="Фейсбук">
+                                        <svg class="item-socials__icon" width="36" height="36" viewBox="0 0 35 37" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                      d="M20.8918 2.25635C16.6145 2.25635 14.1059 4.60521 14.1059 9.95683V14.6653H8.68054V20.3057H14.1059V33.8427H19.5312V20.3057H23.8715L24.9566 14.6653H19.5312V10.9109C19.5312 8.89497 20.1636 7.89676 21.9832 7.89676H24.9566V2.48769C24.4422 2.4155 22.9437 2.25635 20.8918 2.25635Z"
+                                      fill="#40C5E9" />
+                                  </svg>
+                                    </a>
+                                </li>
+                                <li class="socials__item">
+                                    <a class="item-socials__link" href="#" aria-label="Реддит">
+                                        <svg class="item-socials__icon" width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <g clip-path="url(#clip0_64:69)">
+                                      <path
+                                        d="M21.0811 2.95361C18.6539 2.95361 16.8426 4.93641 16.8426 7.19217V11.0962C13.6594 11.2651 10.7483 12.1138 8.42426 13.4449C7.52868 12.5849 6.3295 12.203 5.16679 12.2038C3.90616 12.2048 2.61742 12.6416 1.72848 13.6415L1.70814 13.6642L1.68779 13.6868C0.835047 14.7525 0.49739 16.1802 0.724792 17.5975C0.932467 18.8919 1.68214 20.1914 2.98535 21.0426C2.97682 21.1863 2.95371 21.327 2.95371 21.4721C2.95371 27.2152 9.7037 31.8888 18 31.8888C26.2963 31.8888 33.0463 27.2152 33.0463 21.4721C33.0463 21.327 33.0232 21.1863 33.0146 21.0426C34.3179 20.1914 35.0675 18.8919 35.2752 17.5975C35.5026 16.1802 35.165 14.7525 34.3122 13.6868L34.2919 13.6642L34.2715 13.6415C33.3825 12.6415 32.0939 12.2048 30.8332 12.2038C29.6704 12.203 28.471 12.5846 27.5757 13.4449C25.2517 12.1138 22.3406 11.2651 19.1574 11.0962V7.19217C19.1574 6.05903 19.8116 5.26843 21.0811 5.26843C21.6838 5.26843 22.4179 5.5704 23.5678 5.97372C24.5398 6.31467 25.8048 6.65928 27.422 6.76266C27.8089 7.90626 28.8829 8.74065 30.1528 8.74065C31.7442 8.74065 33.0463 7.43857 33.0463 5.84713C33.0463 4.2557 31.7442 2.95361 30.1528 2.95361C29.0662 2.95361 28.1245 3.56753 27.63 4.45915C26.2475 4.38258 25.2318 4.1049 24.3341 3.79002C23.288 3.42309 22.3269 2.95361 21.0811 2.95361ZM5.16679 14.5186C5.62413 14.5183 6.05865 14.6383 6.41688 14.8329C5.13912 15.8994 4.16964 17.1455 3.5844 18.5063C3.27365 18.1227 3.0864 17.692 3.01248 17.2313C2.88775 16.4539 3.1204 15.6458 3.48946 15.1674C3.83822 14.792 4.47507 14.5192 5.16679 14.5186ZM30.8309 14.5186C31.5229 14.5192 32.1619 14.7921 32.5105 15.1674C32.8796 15.6458 33.1122 16.4539 32.9875 17.2313C32.9136 17.692 32.7263 18.1227 32.4156 18.5063C31.8304 17.1455 30.8609 15.8994 29.5831 14.8329C29.9405 14.6386 30.3738 14.5183 30.8309 14.5186ZM12.213 16.8425C13.4919 16.8425 14.5278 17.8784 14.5278 19.1573C14.5278 20.4363 13.4919 21.4721 12.213 21.4721C10.934 21.4721 9.89815 20.4363 9.89815 19.1573C9.89815 17.8784 10.934 16.8425 12.213 16.8425ZM23.787 16.8425C25.066 16.8425 26.1019 17.8784 26.1019 19.1573C26.1019 20.4363 25.066 21.4721 23.787 21.4721C22.5081 21.4721 21.4722 20.4363 21.4722 19.1573C21.4722 17.8784 22.5081 16.8425 23.787 16.8425ZM24.0628 23.2467C23.3232 25.4076 20.9583 27.2592 18 27.2592C15.0417 27.2592 12.6768 25.4084 11.9372 23.4027C13.2682 24.4825 15.4861 25.2541 18 25.2541C20.5139 25.2541 22.7318 24.4816 24.0628 23.2467Z"
+                                        fill="#40C5E9" />
+                                    </g>
+                                    <defs>
+                                      <clipPath id="clip0_64:69">
+                                        <rect width="34.7222" height="34.7222" fill="white" transform="translate(0.638889 0.638672)" />
+                                      </clipPath>
+                                    </defs>
+                                  </svg>
+                                    </a>
+                                </li>
+                                <li class="socials__item">
+                                    <a class="item-socials__link" href="#" aria-label="Инстаграм">
+                                        <svg class="item-socials__icon" width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                      d="M12.213 4.979C8.21846 4.979 4.97916 8.2183 4.97916 12.2128V23.7869C4.97916 27.7814 8.21846 31.0207 12.213 31.0207H23.787C27.7815 31.0207 31.0208 27.7814 31.0208 23.7869V12.2128C31.0208 8.2183 27.7815 4.979 23.787 4.979H12.213ZM26.6806 7.87252C27.4792 7.87252 28.1273 8.52067 28.1273 9.31928C28.1273 10.1179 27.4792 10.766 26.6806 10.766C25.8819 10.766 25.2338 10.1179 25.2338 9.31928C25.2338 8.52067 25.8819 7.87252 26.6806 7.87252ZM18 10.766C21.9945 10.766 25.2338 14.0053 25.2338 17.9998C25.2338 21.9943 21.9945 25.2336 18 25.2336C14.0055 25.2336 10.7662 21.9943 10.7662 17.9998C10.7662 14.0053 14.0055 10.766 18 10.766ZM18 13.6596C16.8489 13.6596 15.7449 14.1168 14.931 14.9308C14.117 15.7448 13.6597 16.8487 13.6597 17.9998C13.6597 19.1509 14.117 20.2549 14.931 21.0689C15.7449 21.8828 16.8489 22.3401 18 22.3401C19.1511 22.3401 20.2551 21.8828 21.069 21.0689C21.883 20.2549 22.3403 19.1509 22.3403 17.9998C22.3403 16.8487 21.883 15.7448 21.069 14.9308C20.2551 14.1168 19.1511 13.6596 18 13.6596Z"
+                                      fill="#40C5E9" />
+                                  </svg>
+                                    </a>
+                                </li>
+                                <li class="socials__item">
+                                    <a class="item-socials__link" href="#" aria-label="Больше социальных сетей">
+                                        <svg class="item-socials__icon" width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd" clip-rule="evenodd"
+                                      d="M7.1493 21.255C6.28596 21.255 5.45799 20.9121 4.84752 20.3016C4.23705 19.6911 3.89409 18.8632 3.89409 17.9998C3.89409 17.1365 4.23705 16.3085 4.84752 15.6981C5.45799 15.0876 6.28596 14.7446 7.1493 14.7446C8.01263 14.7446 8.84061 15.0876 9.45108 15.6981C10.0615 16.3085 10.4045 17.1365 10.4045 17.9998C10.4045 18.8632 10.0615 19.6911 9.45108 20.3016C8.84061 20.9121 8.01263 21.255 7.1493 21.255ZM18 21.255C17.1367 21.255 16.3087 20.9121 15.6982 20.3016C15.0877 19.6911 14.7448 18.8632 14.7448 17.9998C14.7448 17.1365 15.0877 16.3085 15.6982 15.6981C16.3087 15.0876 17.1367 14.7446 18 14.7446C18.8633 14.7446 19.6913 15.0876 20.3018 15.6981C20.9122 16.3085 21.2552 17.1365 21.2552 17.9998C21.2552 18.8632 20.9122 19.6911 20.3018 20.3016C19.6913 20.9121 18.8633 21.255 18 21.255ZM28.8507 21.255C27.9874 21.255 27.1594 20.9121 26.5489 20.3016C25.9384 19.6911 25.5955 18.8632 25.5955 17.9998C25.5955 17.1365 25.9384 16.3085 26.5489 15.6981C27.1594 15.0876 27.9874 14.7446 28.8507 14.7446C29.714 14.7446 30.542 15.0876 31.1525 15.6981C31.7629 16.3085 32.1059 17.1365 32.1059 17.9998C32.1059 18.8632 31.7629 19.6911 31.1525 20.3016C30.542 20.9121 29.714 21.255 28.8507 21.255Z"
+                                      fill="#40C5E9" />
+                                  </svg>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+        </main>
+
+        <footer class="footer">
+            <div class="footer__container _container">
+                <div class="footer__body">
+                    <div class="footer__row">
+                        <div class="footer__column">
+                            <div class="footer__navigation navigation-footer">
+                                <h2 class="footer__subtitle subtitle">Навигация</h2>
+                                <nav class="navigation-footer__menu menu">
+                                    <ul class="navigation-footer__menu-list">
+                                        <li class="navigation-footer__menu-item menu__item">
+                                            <a href="#page__opportunities" class="navigation-footer__link footer--fw-c menu__link">Возможности</a>
+                                        </li>
+                                        <li class="navigation-footer__menu-item menu__item">
+                                            <a href="#page__about" class="navigation-footer__link footer--fw-c menu__link">О линзе</a>
+                                        </li>
+                                        <li class="navigation-footer__menu-item menu__item">
+                                            <a href="#page__start" class="navigation-footer__link footer--fw-c menu__link">Старт продаж</a>
+                                        </li>
+                                        <li class="navigation-footer__menu-item menu__item">
+                                            <a href="#page__team" class="navigation-footer__link footer--fw-c menu__link">Наша команда</a>
+                                        </li>
+                                    </ul>
+                                </nav>
+                            </div>
+                        </div>
+                        <div class="footer__column">
+                            <div class="footer__office office-footer">
+                                <h2 class="footer__subtitle subtitle" id="footer__subtitle">Наш офис</h2>
+                                <div class="office-footer__content">
+                                    <ul class="office-footer__list" aria-labelledby="footer__subtitle">
+                                        <li class="office-footer__item">
+                                            <a class="office-footer__link office-footer__link-svg office-footer__link-tel
+                                            footer--fw-c" href="tel:78005553535">+ 7 (800) 555-35-35</a>
+                                        </li>
+                                        <li class="office-footer__item">
+                                            <a class="office-footer__link office-footer__link-svg office-footer__link-mail
+                                            footer--fw-c" href="mailto:lens@support.ru">lens@support.ru</a>
+                                        </li>
+                                        <li class="office-footer__item">
+                                            <address class="office-footer__link office-footer__link-svg office-footer__link-address
+                                            footer--fw-c" aria-label="Адресс офиса" tabindex="0">
+                                        Россия, Ульяновск
+                                        <br>
+                                        ул. Минаева, 11
+                                      </address>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="footer__column">
+                            <div class="footer__wishes wishes-footer">
+                                <h2 class="footer__subtitle subtitle">Носите с увереностью</h2>
+                                <div class="wishes-footer__body">
+                                    <div class="wishes-footer__text footer--fw-c text">
+                                        Просить вас носить линзу - это то, к чему мы <br>не относимся легкомысленно,<br> и мы стремимся заслужить ваше доверие.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="footer__line-up">
+                        <hr class="footer__line">
+                        <a class="footer__link-up" href="#">
+                            <img class="footer__up" src="img/arrow-up.svg" alt="Кнопка вверх">
+                        </a>
+                        <hr class="footer__line">
+                    </div>
+                    <div class="footer__copyright">
+                        Copyright © By Minin Maxim 2021
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <!-- Header JS -->
+    <script src="js/script.js"></script>
+
+    <!-- Timer JS -->
+    <script src="js/timer.js"></script>
+
+    <!-- Swiper JS -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <!-- Initialize Swiper -->
+    <script src="js/slider.js"></script>
+
+</body>
+
+</html>
